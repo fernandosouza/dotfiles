@@ -1,6 +1,6 @@
 [user]
 	name = fernandosouza
-  email = "nandope5@gmail.com"
+	email = nandope5@gmail.com
 [color]
   ui = auto
 [color "branch"]
@@ -22,6 +22,7 @@
   whitespace = red reverse
 [core]
   whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+	excludesfile = /Users/nandosouza/.gitignore_global
 [alias]
   st = status
   ci = commit
@@ -37,3 +38,9 @@
   sh = stash
 [push]
   default = tracking
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
