@@ -16,6 +16,5 @@ alias atools='cd ~/Mobile/_SDK/android-sdk-mac_x86/platform-tools/'
 
 alias htdocs='cd /usr/local/zend/apache2/htdocs/'
 alias webserver='cd /Library/WebServer/Documents/'
-alias clonecahier='git clone git@github.com:mgrtecnologia/cahier.git'
 
 alias sublime='open -a "Sublime Text 2"'
