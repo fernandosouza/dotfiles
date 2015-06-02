@@ -16,4 +16,4 @@ alias atools='cd ~/Mobile/_SDK/android-sdk-mac_x86/platform-tools/'
 
 alias webserver='cd /Library/WebServer/Documents/'
 
-alias sublime='open -a "Sublime Text 2"'
+alias sublime='open -a "Sublime Text"'
