@@ -1,5 +1,7 @@
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
+export CLICOLOR=1
+
 alias c=clear
 alias h=history
 alias g=git
